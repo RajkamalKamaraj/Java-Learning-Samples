@@ -5,35 +5,16 @@ import java.util.*;
 
 public class Test{
     public static void main(String[] args) {
-//        TreeSet<String> s = new TreeSet<>();
-//        s.add("1");
-//        s.add("one");
-//        s.add("111");
-//        s.add("one");
-//        //s.add(6.0f);
-////        iterator itr = s.iterator();
-////        while (itr.hasNext())
-//            System.out.println(s);
-//        Map<Integer,Integer> m = new HashMap<>();
-//        for(int i=0;i<=10;i++){
-//            m.add(i,i*i);
-//        }
-//        System.out.println(m.get(4));
-//        Map l = new HashMap();
-//        l.put(1,"10");
-//        l.put(2,"12");
-//        //l.remove(1);
-//        System.out.println(l.contains(1));
-
-//        TreeMap<String,Integer> t = new TreeMap<>();
-//        t.put("a",5);
-//        t.put("b",10);
-//        t.put("c",15);
+//        int j[][] = new int[4][];
+//        j[0] = new int[]{0,1,3};
+//        j[1] = new int[]{6,4};
+//        j[2] = new int[]{1,7,6,8,9};
+//        j[3] = new int[]{5};
 //
-//        System.out.println(t.firstKey()+ "" + t.lastKey());
-
-        System.out.println("R"+5);
-
-
-  }
+//        System.out.println(j[2][2] == j[1][0]);
+        String[] str = {"10","5","100"};
+        Arrays.sort(str);
+        for(String s: str)
+            System.out.println(s);
+    }
 }

@@ -15,10 +15,15 @@ public class LaptopClass {
     }
 
     public static void main(String[] args) {
+        int name;
         LaptopClass L = new LaptopClass();
+        LaptopClass L1 = new LaptopClass();
         L.performance();
         L.speed();
         L.count = 25;
         System.out.println(L.count);
+        L = L1;
+        System.out.println(L);
+        System.out.println(L1);
     }
 }
